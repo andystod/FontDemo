@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4917FCDE2679555C009C634E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4917FCDD2679555C009C634E /* SnapKit */; };
+		4917FCE3267955AF009C634E /* ViewController+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917FCE2267955AF009C634E /* ViewController+Constraints.swift */; };
 		49B4ADF22678ED0700DE8605 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4ADF12678ED0700DE8605 /* AppDelegate.swift */; };
 		49B4ADF42678ED0700DE8605 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4ADF32678ED0700DE8605 /* SceneDelegate.swift */; };
 		49B4ADF62678ED0700DE8605 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4ADF52678ED0700DE8605 /* ViewController.swift */; };
@@ -15,6 +17,18 @@
 		49B4ADFE2678ED0900DE8605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B4ADFC2678ED0900DE8605 /* LaunchScreen.storyboard */; };
 		49B4AE092678ED0900DE8605 /* FontDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4AE082678ED0900DE8605 /* FontDemoTests.swift */; };
 		49B4AE142678ED0900DE8605 /* FontDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4AE132678ED0900DE8605 /* FontDemoUITests.swift */; };
+		49B4AE342678ED3400DE8605 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49B4AE292678ED3400DE8605 /* OpenSans-SemiBold.ttf */; };
+		49B4AE352678ED3400DE8605 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49B4AE2A2678ED3400DE8605 /* OpenSans-Light.ttf */; };
+		49B4AE362678ED3400DE8605 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49B4AE2B2678ED3400DE8605 /* OpenSans-Italic.ttf */; };
+		49B4AE372678ED3400DE8605 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49B4AE2C2678ED3400DE8605 /* OpenSans-ExtraBold.ttf */; };
+		49B4AE382678ED3400DE8605 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49B4AE2D2678ED3400DE8605 /* OpenSans-LightItalic.ttf */; };
+		49B4AE392678ED3400DE8605 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49B4AE2E2678ED3400DE8605 /* OpenSans-Bold.ttf */; };
+		49B4AE3A2678ED3400DE8605 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49B4AE2F2678ED3400DE8605 /* OpenSans-SemiBoldItalic.ttf */; };
+		49B4AE3B2678ED3400DE8605 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49B4AE302678ED3400DE8605 /* OpenSans-ExtraBoldItalic.ttf */; };
+		49B4AE3C2678ED3400DE8605 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49B4AE312678ED3400DE8605 /* LICENSE.txt */; };
+		49B4AE3D2678ED3400DE8605 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49B4AE322678ED3400DE8605 /* OpenSans-Regular.ttf */; };
+		49B4AE3E2678ED3400DE8605 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49B4AE332678ED3400DE8605 /* OpenSans-BoldItalic.ttf */; };
+		49B4AE432678F31300DE8605 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4AE422678F31300DE8605 /* Fonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4917FCE2267955AF009C634E /* ViewController+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Constraints.swift"; sourceTree = "<group>"; };
 		49B4ADEE2678ED0700DE8605 /* FontDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B4ADF12678ED0700DE8605 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49B4ADF32678ED0700DE8605 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,18 @@
 		49B4AE0F2678ED0900DE8605 /* FontDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B4AE132678ED0900DE8605 /* FontDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDemoUITests.swift; sourceTree = "<group>"; };
 		49B4AE152678ED0900DE8605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B4AE292678ED3400DE8605 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		49B4AE2A2678ED3400DE8605 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		49B4AE2B2678ED3400DE8605 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		49B4AE2C2678ED3400DE8605 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		49B4AE2D2678ED3400DE8605 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		49B4AE2E2678ED3400DE8605 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		49B4AE2F2678ED3400DE8605 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		49B4AE302678ED3400DE8605 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		49B4AE312678ED3400DE8605 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		49B4AE322678ED3400DE8605 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		49B4AE332678ED3400DE8605 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		49B4AE422678F31300DE8605 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4917FCDE2679555C009C634E /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +127,11 @@
 		49B4ADF02678ED0700DE8605 /* FontDemo */ = {
 			isa = PBXGroup;
 			children = (
+				49B4AE242678ED1500DE8605 /* Fonts */,
 				49B4ADF12678ED0700DE8605 /* AppDelegate.swift */,
 				49B4ADF32678ED0700DE8605 /* SceneDelegate.swift */,
 				49B4ADF52678ED0700DE8605 /* ViewController.swift */,
+				4917FCE2267955AF009C634E /* ViewController+Constraints.swift */,
 				49B4ADF72678ED0700DE8605 /* Main.storyboard */,
 				49B4ADFA2678ED0900DE8605 /* Assets.xcassets */,
 				49B4ADFC2678ED0900DE8605 /* LaunchScreen.storyboard */,
@@ -128,6 +158,33 @@
 			path = FontDemoUITests;
 			sourceTree = "<group>";
 		};
+		49B4AE242678ED1500DE8605 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				49B4AE282678ED3400DE8605 /* Open_Sans */,
+				49B4AE422678F31300DE8605 /* Fonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		49B4AE282678ED3400DE8605 /* Open_Sans */ = {
+			isa = PBXGroup;
+			children = (
+				49B4AE292678ED3400DE8605 /* OpenSans-SemiBold.ttf */,
+				49B4AE2A2678ED3400DE8605 /* OpenSans-Light.ttf */,
+				49B4AE2B2678ED3400DE8605 /* OpenSans-Italic.ttf */,
+				49B4AE2C2678ED3400DE8605 /* OpenSans-ExtraBold.ttf */,
+				49B4AE2D2678ED3400DE8605 /* OpenSans-LightItalic.ttf */,
+				49B4AE2E2678ED3400DE8605 /* OpenSans-Bold.ttf */,
+				49B4AE2F2678ED3400DE8605 /* OpenSans-SemiBoldItalic.ttf */,
+				49B4AE302678ED3400DE8605 /* OpenSans-ExtraBoldItalic.ttf */,
+				49B4AE312678ED3400DE8605 /* LICENSE.txt */,
+				49B4AE322678ED3400DE8605 /* OpenSans-Regular.ttf */,
+				49B4AE332678ED3400DE8605 /* OpenSans-BoldItalic.ttf */,
+			);
+			path = Open_Sans;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +201,9 @@
 			dependencies = (
 			);
 			name = FontDemo;
+			packageProductDependencies = (
+				4917FCDD2679555C009C634E /* SnapKit */,
+			);
 			productName = FontDemo;
 			productReference = 49B4ADEE2678ED0700DE8605 /* FontDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +275,9 @@
 				Base,
 			);
 			mainGroup = 49B4ADE52678ED0700DE8605;
+			packageReferences = (
+				4917FCDC2679555C009C634E /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 49B4ADEF2678ED0700DE8605 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +294,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B4AE3C2678ED3400DE8605 /* LICENSE.txt in Resources */,
+				49B4AE342678ED3400DE8605 /* OpenSans-SemiBold.ttf in Resources */,
 				49B4ADFE2678ED0900DE8605 /* LaunchScreen.storyboard in Resources */,
+				49B4AE372678ED3400DE8605 /* OpenSans-ExtraBold.ttf in Resources */,
 				49B4ADFB2678ED0900DE8605 /* Assets.xcassets in Resources */,
+				49B4AE3A2678ED3400DE8605 /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				49B4AE362678ED3400DE8605 /* OpenSans-Italic.ttf in Resources */,
+				49B4AE392678ED3400DE8605 /* OpenSans-Bold.ttf in Resources */,
+				49B4AE352678ED3400DE8605 /* OpenSans-Light.ttf in Resources */,
+				49B4AE382678ED3400DE8605 /* OpenSans-LightItalic.ttf in Resources */,
+				49B4AE3E2678ED3400DE8605 /* OpenSans-BoldItalic.ttf in Resources */,
+				49B4AE3B2678ED3400DE8605 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				49B4AE3D2678ED3400DE8605 /* OpenSans-Regular.ttf in Resources */,
 				49B4ADF92678ED0700DE8605 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +332,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B4AE432678F31300DE8605 /* Fonts.swift in Sources */,
 				49B4ADF62678ED0700DE8605 /* ViewController.swift in Sources */,
 				49B4ADF22678ED0700DE8605 /* AppDelegate.swift in Sources */,
+				4917FCE3267955AF009C634E /* ViewController+Constraints.swift in Sources */,
 				49B4ADF42678ED0700DE8605 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -593,6 +669,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4917FCDC2679555C009C634E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4917FCDD2679555C009C634E /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4917FCDC2679555C009C634E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 49B4ADE62678ED0700DE8605 /* Project object */;
 }
